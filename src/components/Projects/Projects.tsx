@@ -54,19 +54,6 @@ const Projects: FC = () => {
                             </WrapItem>
                         ))}
                     </Wrap>
-
-                    <Link to={'/projects'}>
-                        <Button
-                            variant={'solid'}
-                            colorScheme={'teal'}
-                            size={'lg'}
-                            onClick={() => {
-                                scroll.scrollToTop({ duration: 450 })
-                            }}
-                        >
-                            View All
-                        </Button>
-                    </Link>
                 </VStack>
             </Container>
         </Element>

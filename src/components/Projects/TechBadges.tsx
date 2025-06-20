@@ -43,3 +43,17 @@ export const DjangoBadge = () => {
 export const TypescriptBadge = () => {
     return <Badge colorScheme={'blue'}>Typescript</Badge>
 }
+
+export const HtmlBadge = () => {
+    return <Badge colorScheme={'blue'}>HTML</Badge>
+}
+
+export const CSSBadge = () => {
+    return <Badge colorScheme={'blue'}>CSS</Badge>
+}
+
+export const JavaScriptBadge = () => {
+    return <Badge colorScheme={'blue'}>JavaScript</Badge>
+}
+
+

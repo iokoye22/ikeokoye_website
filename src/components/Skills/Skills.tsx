@@ -11,8 +11,8 @@ import {
     SiFlask,
     SiHtml5,
     SiJava,
-    SiPhp,
     SiPython,
+    SiJavascript,
     SiReact,
     SiTypescript,
     SiBootstrap,
@@ -22,12 +22,12 @@ import {
     SiGit,
     SiLatex,
     SiDocker,
-    SiGo,
+    SiSwift,
     SiNodedotjs,
     SiPostgresql,
     SiC,
     SiFirebase,
-    SiCsharp,
+    SiCplusplus,
     SiDotnet,
     SiAmazonaws,
     SiTailwindcss,
@@ -74,12 +74,12 @@ const Skills: FC = () => {
                                         icon={SiTypescript}
                                         name='Typescript'
                                     />
+                                    <SkillItem icon={SiJavascript} name='JavaScript' />
                                     <SkillItem icon={SiJava} name='Java' />
-                                    <SkillItem icon={SiPhp} name='PHP' />
                                     <SkillItem icon={SiHtml5} name='HTML/CSS' />
-                                    <SkillItem icon={SiGo} name='Golang' />
+                                    <SkillItem icon={SiSwift} name='Swift' />
                                     <SkillItem icon={SiC} name='C' />
-                                    <SkillItem icon={SiCsharp} name='C#' />
+                                    <SkillItem icon={SiCplusplus} name='C++' />
                                 </SkillSection>
                                 <SkillSection title={'Frameworks'}>
                                     <SkillItem icon={SiReact} name='ReactJS' />

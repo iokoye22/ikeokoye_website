@@ -30,7 +30,7 @@ const Intro: FC = () => {
                         textAlign='center'
                     >
                         <ReactTypingEffect
-                            text='Jason Wang'
+                            text='Ike Okoye'
                             speed={85}
                             eraseDelay={1000000}
                             typingDelay={650}
@@ -38,7 +38,7 @@ const Intro: FC = () => {
                         />
                     </Heading>
                     <HStack spacing={6}>
-                        {['🇨🇦', '🇨🇳', '🇨🇿'].map(c => (
+                        {[ '🇺🇸', '🇳🇬'].map(c => (
                             <Heading fontSize={'1.75rem'}>{c}</Heading>
                         ))}
                     </HStack>
@@ -50,8 +50,8 @@ const Intro: FC = () => {
                             textAlign='center'
                             letterSpacing={1.1}
                         >
-                            Computer Science + Cognitive Science @ University of
-                            Toronto '26
+                            Computer Science + African Studies @ Boston 
+                            University '22
                         </Text>
                         <Box p={4}>
                             <Socials
@@ -60,7 +60,7 @@ const Intro: FC = () => {
                         </Box>
                     </Fade>
                     <Link
-                        href={'/Resume_Jason_Wang.pdf'}
+                        href={'/Ike-Okoye-Resume.pdf'}
                         isExternal
                         _hover={{ textDecor: 'none' }}
                     >

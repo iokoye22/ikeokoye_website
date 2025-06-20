@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 import { Element } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
-import headshot from '../../media/headshot.jpg'
+import headshot from '../../media/headshot.jpeg'
 
 const About: FC = () => {
     return (
@@ -40,10 +40,10 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>👋🏼</Center>
                                     <Text>
-                                        Hi, I'm Jason and I'm a fourth year co-op
-                                        student at the{' '}
-                                        <b>University of Toronto</b> with a
-                                        passion for <b>Software Engineering</b>.
+                                        Hi, I'm Ike and I'm a graduate of 
+                                        {' '} <b>Boston Univeristy</b> with a
+                                        passion for <b>Software Engineering</b>, 
+                                        Technology and Innovation.
                                     </Text>
                                 </Flex>
                             </Fade>
@@ -51,13 +51,11 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>🎓</Center>
                                     <Text>
-                                        I'm pursuing an HBSc with a{' '}
-                                        <b>
-                                            Specialist in Computer Science (ASIP
-                                            co-op)
-                                        </b>{' '}
-                                        and <b>Major in Cognitive Science</b>,
-                                        graduating class of 2026.
+                                        I graduated with a Bachelor's of {' '}
+                                        <b>Computer Science </b>{' '}
+                                        and <b> African Studies </b>. My relevant coursework entailed CS 411 (Software Engineering), 
+                                        CS 460 (Database Systems), CS 111 (Intro to Python), CS 112 (Data Structures and Algorthims - Java),
+                                        CS 237 (Probability in Computing), CS 515 (Natural Language Processing - AI)
                                     </Text>
                                 </Flex>
                             </Fade>
@@ -65,12 +63,14 @@ const About: FC = () => {
                                 <Flex>
                                     <Center p={4}>👨🏻‍💻</Center>
                                     <Text>
-                                        I am currently a <b>Software Developer at theScore</b> and I have previously held a position as a{' '}
+                                        My most recent position was <b>Software Engineer at Wellington Mangement</b> working in Full Stack development under the Client Platform Technology 
+                                        and Infrastructure Platform Technology teams. I have previously held a position as a{' '}
                                         <b>
-                                            Software Engineering Intern at
-                                            NerveX
+                                            InvesTech Intern at
+                                            Wellington Managment 
                                         </b>{' '}
-                                        working in full-stack development. I also have experience as a developer at various student organizations, including <b>UofT Blueprint, UTMIST,</b> and <b>UofT AI</b>.
+                                        working in full-stack development, data analytics, and webscraping. I also have experience as a developer at various organizations, including <b>BU Spark, AfroBites, Boston HealthCare for the Homeless</b> 
+                                        {' '}and <b> Assembly Square Auto Sales</b>.
                                     </Text>
                                 </Flex>
                             </Fade>
@@ -93,26 +93,9 @@ const About: FC = () => {
                                     <Center p={4}>🧠</Center>
                                     <Text>
                                         In addition to Software Engineering, I
-                                        am also interested in the confluence of
-                                        artificial intelligence and cognitive
-                                        science, as well as photography! Check
-                                        out my&nbsp;
-                                        <Link
-                                            href='https://photo.jasonfyw.com'
-                                            isExternal
-                                            fontWeight={'semibold'}
-                                            borderBottom={
-                                                '2px solid rgb(154, 228, 217)'
-                                            }
-                                            transition={'0.2s'}
-                                            _hover={{
-                                                textDecor: 'none',
-                                                opacity: 0.9,
-                                            }}
-                                        >
-                                            photography portfolio to learn more
-                                            about my creative work.
-                                        </Link>
+                                        am also interested in Chess, Soccer, Basketball, Power-Lifting, Cars, Real-Estate, Crypto, 
+                                        Decentralized Apps, and Innovation. 
+    
                                     </Text>
                                 </Flex>
                             </Fade>

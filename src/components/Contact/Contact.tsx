@@ -21,22 +21,29 @@ const Contact: FC = () => {
                     <Fade>
                         <Heading as='h2'>Contact me</Heading>
                     </Fade>
-                    <Card maxW={'85vw'} w={'xl'} pb={8} overflow={'hidden'}>
-                        <Flex textAlign={'center'}>
-                            <Container w='50%'>
-                                <Link href='mailto:jason@jasonfyw.com'>
+                    <Card maxW={'85vw'} w={'2xl'} pb={8} overflow={'hidden'}>
+                        <Flex textAlign={'center'} direction={{ base: 'column', md: 'row' }} gap={4}>
+                            <Container w={{ base: '100%', md: '33%' }}>
+                                <Link href='mailto:ikeokoye617@gmail.com'>
                                     <Badge colorScheme='green'>Personal</Badge>
-                                    <Text textDecoration={'underline'}>
-                                        jason@jasonfyw.com
+                                    <Text whiteSpace='nowrap'>
+                                        ikeokoye617@gmail.com
                                     </Text>
                                 </Link>
                             </Container>
-                            <Spacer />
-                            <Container w='50%'>
-                                <Link href='mailto:jsn.wang@mail.utoronto.ca'>
-                                    <Badge colorScheme='orange'>Academic</Badge>
-                                    <Text textDecoration={'underline'}>
-                                        jsn.wang@mail.utoronto.ca
+                            <Container w={{ base: '100%', md: '33%' }}>
+                                <Link href='tel:+18572609455'>
+                                    <Badge colorScheme='blue'>Phone</Badge>
+                                    <Text>
+                                        (857) 260-9455
+                                    </Text>
+                                </Link>
+                            </Container>
+                            <Container w={{ base: '100%', md: '33%' }}>
+                                <Link href='https://instagram.com/_ikeokoye' isExternal>
+                                    <Badge colorScheme='orange'>Instagram</Badge>
+                                    <Text>
+                                        _ikeokoye
                                     </Text>
                                 </Link>
                             </Container>

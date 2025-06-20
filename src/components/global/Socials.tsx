@@ -12,17 +12,17 @@ const Socials: FC<SocialsProps> = props => {
         {
             aria: 'Linkedin',
             icon: <FiLinkedin />,
-            href: 'https://linkedin.com/in/jasonfyw/',
+            href: 'https://www.linkedin.com/in/ikeokoye/',
         },
         {
             aria: 'GitHub',
             icon: <FiGithub />,
-            href: 'https://github.com/jasonfyw',
+            href: 'https://github.com/iokoye22',
         },
         {
             aria: 'Email',
             icon: <FiMail />,
-            href: 'mailto:jason@jasonfyw.com',
+            href: 'mailto:ikeokoye617@gmail.com',
         },
     ]
     return (

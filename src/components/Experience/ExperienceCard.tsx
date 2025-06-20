@@ -43,8 +43,15 @@ const ExperienceCard = (props: ExperienceCardProps) => {
                                 borderRadius={'full'}
                                 border={'1px'}
                                 borderColor={avatarBorderColor}
+                                bg={'white'}
+                                p={1}
                             >
-                                <Avatar src={props.logoSrc} />
+                                <Avatar 
+                                    src={props.logoSrc} 
+                                    bg={'white'}
+                                    size={'md'}
+                                    objectFit={'scale-down'}
+                                />
                             </Box>
                         </Center>
                     )}
